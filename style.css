@@ -1,4 +1,6 @@
 
+/* meu codigo ficou a metade de baixo branco e nao consegui arrumar.*/
+
 * {
   margin: 0;
   padding: 0;
@@ -47,7 +49,26 @@ p {
   background-color: white;
   padding: 15px;
 }
+.card-button{
+  margin-top: 15px;
+}
+.card-button button{
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+  background-color: #3d8168;
+  color: white;
+  display: flex;
+  gap: 5px;
+ justify-content: center;
+ font-weight: bold;
+ font-size: medium;
+ margin-left: 10px;
+ 
 
-
-.escritaperfume {
-  le
+}
+.card-button:hover button{
+  background-color: hsl(212, 21%, 14%);
+  cursor: pointer;}
