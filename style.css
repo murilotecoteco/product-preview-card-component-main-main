@@ -1,0 +1,53 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+h1, h2, h4 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+}
+
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+.main-cont {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.sub-contain {
+  display: flex;
+  width: 40%;
+  min-width: 500px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+.img1 {
+  background-image: url(images/image-product-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+}
+
+.content-two {
+  width: 50%; 
+  background-color: white;
+  padding: 15px;
+}
+
+
+.escritaperfume {
+  le
